@@ -69,27 +69,6 @@ The User Management Service is a RESTful API designed to handle user-related ope
     }
     ```
 
-### Update user information
-- **URL:** `/users/:id`
-- **Method:** `PUT`
-- **Request Body:**
-    ```json
-    {
-        "name": "John Doe",
-        "email": "john.doe@example.com"
-    }
-    ```
-- **Response:**
-    ```json
-    {
-        "message": "User updated successfully",
-        "user": {
-            "id": 1,
-            "name": "John Doe",
-            "email": "john.doe@example.com"
-        }
-    }
-    ```
 
 ### Delete a user
 - **URL:** `/users/:id`
